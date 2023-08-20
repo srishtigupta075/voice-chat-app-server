@@ -1,0 +1,28 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop index.js",
+    "nodemon": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.2",
+    "form-data": "^4.0.0",
+    "mongoose": "^7.4.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.15",
+    "openai": "^3.3.0",
+    "socket.io": "^4.4.1"
+  }
+}
